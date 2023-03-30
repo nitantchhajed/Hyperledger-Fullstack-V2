@@ -1,0 +1,75 @@
+{
+    "name": "fabcar",
+    "version": "1.0.0",
+    "description": "FabCar application implemented in JavaScript",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "keywords": [
+        "fabric-client sample app",
+        "balance-transfer node sample",
+        "v1.0 fabric nodesdk sample"
+      ],
+    "engines": {
+        "node": ">=8.9.4 <9.0",
+        "npm": ">=5.6.0 <6.0"
+    },
+    "engineStrict": true,
+    "author": "Hyperledger",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "express": "^4.17.1",
+        "fabric-ca-client": "^2.2.4",
+        "fabric-network": "^2.2.4",
+        "pdf-creator-node": "^2.2.4",
+        "pdfkit": "^0.13.0",
+        "axios": "^0.19.0",
+        "bcrypt": "^5.1.0",
+        "bcrypt-nodejs": "^0.0.3",
+        "body-parser": "^1.17.1",
+        "cookie-parser": "^1.4.3",
+        "cors": "^2.8.3",
+        "dotenv": "^16.0.3",
+        "express-bearer-token": "^2.1.0",
+        "express-jwt": "^5.1.0",
+        "express-session": "^1.15.2",
+        "express-validator": "^6.14.2",
+        "fabric-client": "~1.4.0",
+        "fs": "^0.0.1-security",
+        "fs-extra": "^2.0.0",
+        "generate-unique-id": "^2.0.1",
+        "jsonwebtoken": "^7.3.0",
+        "log4js": "^0.6.38",
+        "nodemon": "^2.0.21",
+        "pg": "^8.10.0",
+        "prom-client": "^11.5.3",
+        "sequelize": "^6.29.3",
+        "sequelize-cli": "^6.6.0"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "eslint": "^5.9.0",
+        "mocha": "^5.2.0",
+        "nyc": "^14.1.1",
+        "sinon": "^7.1.1",
+        "sinon-chai": "^3.3.0"
+    },
+    "nyc": {
+        "exclude": [
+            "coverage/**",
+            "test/**"
+        ],
+        "reporter": [
+            "text-summary",
+            "html"
+        ],
+        "all": true,
+        "check-coverage": true,
+        "statements": 100,
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+    }
+}
+

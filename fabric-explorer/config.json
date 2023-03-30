@@ -1,0 +1,10 @@
+{
+	"network-configs": {
+		"test-network": {
+			"name": "Test Network",
+			"profile": "./connection-profile/test-network.json"
+		}
+	},
+	"configtxgenToolPath": "/home/and-03/fabric-samples/bin",
+	"license": "Apache-2.0"
+}

@@ -1,0 +1,8 @@
+api/node_modules
+api/package-lock.json
+chaincode/birthCert/node_modules
+chaincode/birthCert/package-lock.json
+chaincode/chat-chaincode/go/vendor
+fabric-explorer/organizations/ordererOrganizations
+fabric-explorer/organizations/peerOrganizations
+
