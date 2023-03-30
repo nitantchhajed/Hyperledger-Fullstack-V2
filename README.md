@@ -3,6 +3,8 @@ App to register the bith data on the HyperLedger Fabric Network, Fabric-explorer
 
 ***IF YOU HAVE ANY QUESTIONS OR PROBLEMS, FEEL FREE TO RAISE A ISSUE IN REPO.***
 
+**I recomend you to update your docker to latest version**
+
 **- Make sure you have all the necessary Dependencies Installed on your system (Fabric Binaries, docker, node etc.)**
 
 
