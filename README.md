@@ -103,6 +103,6 @@ Steps to start the project-
 
         - API(GET): http://localhost:4000/api/v1/birthcertificate/certificate?args=["<KEY>"]
 
-            - You have to pass KEY of the person's Birthcertificate you want to get (returned after cretificate is created successfully).
+            - You have to pass KEY of the person's Birthcertificate you want to get (returned in API response after cretificate is created successfully).
 
 ***IF YOU HAVE ANY QUESTIONS OR PROBLEMS, FEEL FREE TO RAISE A ISSUE IN REPO.***
