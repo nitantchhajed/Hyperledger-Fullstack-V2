@@ -1,7 +1,7 @@
 ## Birth-Registery App
 App to register the bith data on the HyperLedger Fabric Network, Fabric-explorer to view transactions, APIs to Interact with network.
 
-***IF YOU HAVE ANY QUESTIONS OR PROBLEMS, FEEL FREE TO RAISE A ISSUE.***
+***IF YOU HAVE ANY QUESTIONS OR PROBLEMS, FEEL FREE TO RAISE A ISSUE IN REPO.***
 
 **- Make sure you have all the necessary Dependencies Installed on your system (Fabric Binaries, docker, node etc.)**
 
@@ -101,4 +101,4 @@ Steps to start the project-
 
             - You have to pass KEY of the person's Birthcertificate you want to get (returned after cretificate is created successfully).
 
-***IF YOU HAVE ANY QUESTIONS OR PROBLEMS, FEEL FREE TO RAISE A ISSUE.***
+***IF YOU HAVE ANY QUESTIONS OR PROBLEMS, FEEL FREE TO RAISE A ISSUE IN REPO.***
