@@ -42,6 +42,8 @@ Steps to start the project-
   - navigate to *{fabric-explorer}* and run [docker-compose up -d]
 
     - This will start your Block Explorer at http://localhost:8080 .
+    - ![image](https://user-images.githubusercontent.com/96972634/228820468-e5f4db0b-5f81-4afb-af1c-abeb56a1f97d.png)
+
 
 *4. Setup the API*  
 
