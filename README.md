@@ -16,31 +16,40 @@ Steps to start the project-
 *2. Copying the network artifacts*
 
     -Navigate to { test-network/organizations } [cd test-network/organizations].
-
-    image.png
+    
+    ![image](https://user-images.githubusercontent.com/96972634/228813627-c7e092ef-d487-47c9-a6be-84909bc5c3c7.png)
 
     -copy the *ordererorganizations* and *peerOrganizations* folder.
-
+	
     -Navigate to *{ fabric-explorer/organizations }* and paste those two folders.
+	![image](https://user-images.githubusercontent.com/96972634/228813900-766c0716-558e-466e-94cf-a291ee8cb1fb.png)
+	paste it here
 	
 *3. setting up explorer*
 
 	-Inside the *{ fabric-explorer/organizations }* directory navigate to *{peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/keystore}* and copy the name of the key.
 
-	-then navigate to *{/fabric-explorer/connection-profile/test-network.json}* and replace the "adminPrivateKey" path with the key name you copied.
+![image](https://user-images.githubusercontent.com/96972634/228814194-42154809-24b8-43b3-abc3-6edec623b9c7.png)
 
-    - navigate to *{fabric-explorer}* and run [docker-compose up -d]
+
+  -then navigate to *{/fabric-explorer/connection-profile/test-network.json}* and replace the "adminPrivateKey" path with the key name you copied.
+  
+  ![image](https://user-images.githubusercontent.com/96972634/228814583-f0913030-8ae2-414e-b4e8-ce27b70b092e.png)
+
+
+  - navigate to *{fabric-explorer}* and run [docker-compose up -d]
 
     - This will start your Block Explorer at http://localhost:8080 .
 
 *4. Setup the API*  
 
 	-Navigate to  *{Hyperledger-birthCertificate-V2/api}*  and install dependencies [npm install].
+	
 	-start the API **node app.js**
 
 ## API overview -
 	
-	*port is set to 4000 by default*
+	***port is set to 4000 by default***
 
     -Interact with the chain with the help of APIs using Postman
 
